@@ -19,7 +19,7 @@ export const renderAuxLoadElements = (
 	config: sunsynkPowerFlowCardConfig,
 ) => {
 	const {
-		showAux,
+		// showAux,
 		additionalAuxLoad,
 		largeFont,
 		auxDynamicColour,
@@ -27,6 +27,8 @@ export const renderAuxLoadElements = (
 		auxPower,
 		decimalPlaces,
 	} = data;
+
+	const showAux = true;
 
 	const { auto_scale } = config.load;
 
